@@ -1,0 +1,152 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    
+    background-color: #1f2937;
+    height: 400px;
+    width: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.leftheader{
+    color: white;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightheader a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightheader{
+    margin-right: 100px;
+    gap: 10px;
+   }
+
+   
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex: 1;
+    flex-direction: row;
+    
+}
+
+.lefttop{
+    width: 300px;
+    margin-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.righttop{
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: #3882f6;
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.placeholder{
+    padding: 30px;
+}
+
+#btnsign{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #3882f6;
+    border-radius: 2px;
+    border: none;
+    width: 80px;
+    height: 20px;
+    
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.another{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    }
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.parasr{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    
+   
+}
+.insiderleft{
+    text-align: right;
+}
+.callforaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.leftcall{
+    color: white;
+}
+
+#btncall{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: white;
+    background: #3882f6;
+    border: solid white 1px;
+    width: 80px;
+    height: 20px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    background: #1f2937;
+    
+}
+
